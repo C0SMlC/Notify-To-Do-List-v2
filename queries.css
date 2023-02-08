@@ -1,0 +1,49 @@
+@media (max-width: 85em) {
+  html {
+    font-size: 50%;
+  }
+
+  .entry {
+    position: relative;
+    transform: none;
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 45em) {
+  html {
+    font-size: 40%;
+  }
+  .hidden {
+    margin-top: 0;
+  }
+  .entry {
+    position: relative;
+    transform: none;
+  }
+
+  .form-info {
+    display: grid;
+    grid-template-rows: 1/3fr 2/3fr;
+  }
+
+  .form-info aside {
+    grid-row: 1/1;
+  }
+}
+
+@media (max-width: 25em) {
+  html {
+    font-size: 35%;
+  }
+
+  .hidden {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 21em) {
+  html {
+    font-size: 30%;
+  }
+}

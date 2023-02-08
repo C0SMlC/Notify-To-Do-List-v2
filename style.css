@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 2rem;
+  background-color: #b6426b;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header h1 {
+  color: #f5f5f5;
+  margin: 2rem 4rem;
+}
+
+.container {
+  width: 130rem;
+  /* margin: 15rem auto; */
+}
+
+.input-form {
+  display: flex;
+  justify-content: center;
+}
+
+.input-text {
+  padding: 1rem;
+  border: none;
+  border-radius: 1rem;
+}
+
+.input-submit {
+  padding: 1rem;
+  margin-left: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 1rem;
+  background-color: #ffd54f;
+  transition: all 0.5s;
+}
+
+.input-submit:hover {
+  background-color: #00e676;
+}
+
+.todos {
+  /* background-color: #eef0d6; */
+  border-radius: 1rem;
+  color: #424242;
+  width: 100%;
+  /* overflow: scroll; */
+}
+
+.hidden {
+  display: none;
+  background-color: #eef0d6;
+  border-radius: 1rem;
+  color: #424242;
+  height: 10rem;
+  width: 100%;
+  text-align: center;
+  padding: 20px 10px;
+  transition: all 0.2s;
+  margin-top: 8rem;
+}
+
+.todo {
+  /* border: 2px solid #444; */
+  padding: 2rem;
+}
+
+ul {
+  text-decoration: none;
+  max-width: 200rem;
+  max-height: 200rem;
+  list-style: none;
+  /* margin-top: 50px;  */
+  /* overflow: scroll; */
+}
+
+.arrow {
+  width: 2.4rem;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  border-top: 5px solid;
+  border-radius: 1rem;
+  position: relative;
+  transition: all 0.5s;
+  /* text-decoration: line-through; */
+  background-color: #efebe9;
+  /* margin-top: 50px; */
+}
+
+.main {
+  display: flex;
+}
+
+.btn {
+  padding: 1rem 3rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 1rem;
+  margin-left: 1rem;
+  transition: all 0.5s;
+}
+
+.delete:hover {
+  background-color: #6a1406;
+}
+
+.done:hover {
+  background-color: #00e676;
+}
+
+.delete {
+  background-color: #f44336;
+  color: #eeeeee;
+}
+
+.entry {
+  background-color: #ffd54f;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+
+.form-info {
+  display: flex;
+  /* justify-content: center; */
+  max-width: 100rem;
+  gap: 5rem;
+  padding: 4rem;
+  align-items: flex-start;
+}
+
+.dashboard {
+  background-color: #eef0d6;
+  border-radius: 10px;
+  padding: 5rem;
+}
+
+.dashboard-header {
+  margin-bottom: 3rem;
+}
+
+.dashboard p {
+  margin-bottom: 2rem;
+  display: inline-block;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.unordered,
+.list {
+  transition: all 1s;
+}
